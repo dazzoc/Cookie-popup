@@ -33,6 +33,7 @@ body {
 
 .cookie {
   width: 75px;
+  overflow: visible;
   /* transform: scale(0.7); */
   /* padding-right: 1rem; */
 }
