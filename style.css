@@ -9,7 +9,7 @@ body {
 }
 
 .cookie-container {
-  background: linear-gradient(260deg, #6b7ff1 0%, #3e23da 100%);
+  background: linear-gradient(45deg, #6b7ff1 0%, #3e23da 100%);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,19 +28,16 @@ body {
 
 .text{
   width: 70%;
-  /* padding-left: 1rem; */
 }
 
 .cookie {
   width: 75px;
   overflow: visible;
-  /* transform: scale(0.7); */
-  /* padding-right: 1rem; */
 }
 
 .cookie-title {
   font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
 .cookie-subtitle {
@@ -58,4 +55,11 @@ button {
   font-size: 0.8rem;
   font-weight: bold;
   border-radius: 0.2rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #3e23da;
 }
